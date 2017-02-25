@@ -1,0 +1,44 @@
+
+
+
+.crystals{
+	display: flex;
+	justify-content: center;
+}
+
+ .crystal{
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	border-radius: 14px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.green{
+	background: green;
+}
+
+.red{
+	background: red;
+}
+
+.blue{
+	background: blue;
+}
+
+.yellow{
+	background: yellow;
+}
+
+.blue:hover, .green:hover, .yellow:hover, .red:hover{
+	width: 75px;
+	height: 75px;
+}
+
+.crystal p{
+	opacity: 0;
+}
